@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #282c36;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.coin {
+    width: 100px;
+    height: 100px;
+    background: url('coin.png') no-repeat center center;
+    background-size: cover;
+    display: inline-block;
+    transform: rotateY(0deg);
+    transition: transform 1s ease-in-out;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
